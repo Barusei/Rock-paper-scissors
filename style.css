@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    background-color:  #24272E;
+    border: 3px, solid #E2584D;
+    margin: 5px;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+}
+
+header >h1{
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid #fff;
+    width: 200px;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 4px;
+    font-family: Asap, sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge{
+    background-color: #E2584D;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result{
+    font-size: 35px;
+    color: #fff;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: asap, sans-serif;
+    margin-bottom: 50px;
+}
+
+.buttons-section{
+   text-align: center;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+button{
+    border-color: none;
+}
+
+.choices{
+    border-color: none;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    height: 1px;
+    transition: all 0.3s ease;
+}
+
+.choice{
+    border-color: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    margin-right: 50px;
+    background-color: coral;
+    margin-bottom: 30px;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#action-message{
+    text-align: center;
+    margin-top: 2px;
+    color: #fff;
+    font-family: asap sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.barus {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.red-glow{
+    border-color: red;
+}
+
+.green-glow{
+    border: 3px solid green;
+}
+
+.gray-glow{
+    border-color: gray;
+}
+
+
+
+
+
